@@ -24,7 +24,6 @@ public class übung3_scanner {
 
          System.out.println("Du heißt: " + name + " und bist " + alter + " jahre alt.");
 
-
-
+         scan.close();
     }
 }
