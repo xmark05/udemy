@@ -15,6 +15,7 @@ public class ifelse_übung {
 
         if (gegnerhit == true) {
             punkte += 1;
+            System.out.println("Hit");
             System.out.println("Punkteanzahl: " + punkte);
         } else {
             System.out.println("Gegner nicht getroffen");
