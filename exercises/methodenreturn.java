@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class methodenreturn {
 
@@ -18,7 +18,7 @@ public class methodenreturn {
             summe = zahl1 - zahl2;
         }
 
-        
+
         return summe;
 
     }
