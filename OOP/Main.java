@@ -16,5 +16,13 @@ public class Main {
 
         Auto2 Opel = new Auto2("blau", 20.3);
         System.out.println("Das Auto ist " + Opel.farbe + " und kostet " + Opel.Preis + "k");
+
+        audi.gasgeben();
+        audi.bremsen();
+        bmw.bremsen();
+
+        audi.vergleichePreis(6000);
+        Opel.vergleichePreis(30);
+
     }
 }

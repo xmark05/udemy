@@ -12,4 +12,12 @@ public class Auto2 {
         this.farbe = farbe;
         this.Preis = Preis;
     }
+
+    public void vergleichePreis(int Preis){
+        if(this.Preis < Preis){
+            System.out.println("Das " + this.farbe + " ist billiger");
+        } else {
+            System.out.println("Das " + this.farbe + " ist teurer");
+        }
+    }
 }
