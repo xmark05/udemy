@@ -10,4 +10,8 @@ public class laptop {
         this.preis = preis;
         this.marke = marke;
     }
+
+    public void getData(){
+        System.out.println("Ram: " + this.ram + "Preis: " + this.preis + " Marke: " + this.marke);
+    }
 }
