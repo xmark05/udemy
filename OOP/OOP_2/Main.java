@@ -15,7 +15,7 @@ public class Main {
         System.out.println("");
 
         katze nika = new katze("Nika", 2, 15, false);
-        System.out.println("Der Name der Katze ist: " + nika.name + ", sie gehört zur groeßen Tabelle: " + nika.groeße);
-        nika.essen();
+        System.out.println("Der Name der Katze ist: " + nika.name + ", Sie gehört zur groeßen Tabelle: " + nika.groeße);
+        // nika.essen();
     }
 }
