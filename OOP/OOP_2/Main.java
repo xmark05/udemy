@@ -11,5 +11,11 @@ public class Main {
 
         Kuh olga = new Kuh("Olga", 5, 120, 4);
         olga.essen();
+
+        System.out.println("");
+
+        katze nika = new katze("Nika", 2, 15, false);
+        System.out.println("Der Name der Katze ist: " + nika.name + ", sie gehört zur groeßen Tabelle: " + nika.groeße);
+        nika.essen();
     }
 }
