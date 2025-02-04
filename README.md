@@ -30,4 +30,6 @@ Die Dateien und Ordner sind wie folgt organisiert:
 
 /exercises - Enthält Kursübungen.
 
+/OOP - Enthält OOP Übungen
+
 /projects - Enthält größere Projekte oder Aufgaben.
