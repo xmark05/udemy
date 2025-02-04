@@ -1,4 +1,4 @@
-package OOP;
+package OOP.OOP_1;
 
 public class Auto2 {
     String farbe;
