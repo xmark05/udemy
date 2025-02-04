@@ -24,5 +24,12 @@ public class Main {
         audi.vergleichePreis(6000);
         Opel.vergleichePreis(30);
 
+        System.out.println("---------------------------------------------------------");
+
+        Hund hund = new Hund(20, "Mark", "Labrador");
+        System.out.println("Ich bin ein Hund und mein Name ist: " + hund.name + " außerdem bin ich ein " + hund.rasse + " und bin " + hund.alter + " jahre alt");
+
+        hund.bellen();
+        hund.gassigehen();
     }
 }
