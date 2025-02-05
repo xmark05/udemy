@@ -17,5 +17,14 @@ public class Main {
         katze nika = new katze("Nika", 2, 15, false);
         System.out.println("Der Name der Katze ist: " + nika.name + ", Sie gehört zur groeßen Tabelle: " + nika.groeße);
         // nika.essen();
+
+
+        System.out.println("---------------------------------------------------------------------------");
+
+
+        BMW x1 = new BMW(100, 5, "Sport", true);
+
+        Audi A3 = new Audi(200, 5, "Sport", false);
+        A3.starten();
     }
 }
