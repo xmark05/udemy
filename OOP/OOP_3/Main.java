@@ -32,7 +32,7 @@ public class Main {
          Computer computerOlga = new Computer(2, 1, 2,"AMD");
          System.out.println("Olgas Pc hat eine " + computerOlga.cpu + " CPU und ihr Mainboard hat " + computerOlga.mainboard.ramSlots + " Ramslots. Ihr Pc kostet: " + 
          computerOlga.preis + "€");
-         System.out.println(computerOlga.mainboard.ramSlots);
+         // System.out.println(computerOlga.mainboard.ramSlots);
 
 
 
