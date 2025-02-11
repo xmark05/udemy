@@ -26,5 +26,13 @@ public class Main {
 
         Audi A3 = new Audi(200, 5, "Sport", false);
         A3.starten();
+
+        System.out.println("----------------------------------------------------------------------------");
+
+        Laptop dell = new Laptop("Dell", 8, "Intel", 400.99);
+
+        MacBook Mac = new MacBook(16, "Intel", 999.99, true);
+        dell.startenLap();
+        Mac.startenLap();
     }
 }
