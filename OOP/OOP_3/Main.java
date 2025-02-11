@@ -29,11 +29,10 @@ public class Main {
          System.out.println("");
          System.out.println("---------------------Beispiel 2------------------------------");
 
-         Mainboard mainboardAsrock = new Mainboard(2,1,2);
-         Computer computerOlga = new Computer("AMD", mainboardAsrock, 350);
-         System.out.println("Olgas Pc hat eine " + computerOlga.cpu + " CPU und ihr Mainboard hat " + mainboardAsrock.ramSlots + " Ramslots. Ihr Pc kostet: " + 
+         Computer computerOlga = new Computer(2, 1, 2,"AMD");
+         System.out.println("Olgas Pc hat eine " + computerOlga.cpu + " CPU und ihr Mainboard hat " + computerOlga.mainboard.ramSlots + " Ramslots. Ihr Pc kostet: " + 
          computerOlga.preis + "€");
-
+         System.out.println(computerOlga.mainboard.ramSlots);
 
 
 

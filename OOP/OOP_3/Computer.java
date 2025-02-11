@@ -13,4 +13,9 @@ public class Computer {
         this.preis = preis;
 
     }
+
+    public Computer(int ramSlots, int kartenSlots, int usbPorts, String cpu) {
+         mainboard = new Mainboard(ramSlots, kartenSlots, usbPorts);
+         this.cpu = cpu;
+    }
 }
