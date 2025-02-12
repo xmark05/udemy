@@ -11,4 +11,8 @@ public class Auto {
         reifen = new Reifen(reifenMarke, reifenTyp);
     }
 
+    public void ausgabeDaten(){
+        System.out.println("Die Automarke ist: " + this.autoMarke + " und der ReifenTyp ist: " + this.reifen.reifenMarke);
+    }
+
 }
