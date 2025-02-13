@@ -23,7 +23,7 @@ public class GoogleKonto {
     public void setPasswort(String passwort){
 
         if (passwort.equals(this.passwort)) {
-            System.out.println("Passwort stimmt kann geändert werden");
+            System.out.println("Passwort stimmt, kann geändert werden");
             System.out.println("Bitte neues Passwort eingeben: " );
             Scanner scan = new Scanner(System.in);
             String newPw = scan.nextLine();

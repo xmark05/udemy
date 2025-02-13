@@ -15,7 +15,7 @@ public class Main {
         */
 
         GoogleKonto peter = new GoogleKonto("Peter123", "1234");
-        peter.setPasswort("1234");
+        peter.setPasswort("12345");
         System.out.println(peter.getPasswort());
 
     }
